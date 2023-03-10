@@ -92,7 +92,6 @@ img {
 
 .site-nav .item:not(:last-child) {
 	margin-right: 40px;
-	/* background-color: tomato; */
 }
 
 .site-nav .link {
@@ -104,7 +103,6 @@ img {
 
 .site-nav.list {
 	margin-left: 76px;
-	/* display: inline; */
 }
 
 .site-nav .link:hover,
@@ -391,7 +389,6 @@ img {
 }
 
 .portfolio-link {
-	/* display: inline-block; */
 	margin-top: 0;
 	margin-bottom: 0;
 }
