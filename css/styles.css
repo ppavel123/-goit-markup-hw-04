@@ -238,7 +238,7 @@ h3 {
 	height: 112px;
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #f4f4fd;
+	background-color: var(--background-section-color);
 	border-radius: 4px;
 
 	/* outline: 2px solid tomato; */
