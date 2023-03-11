@@ -6,6 +6,7 @@
 	--button-filter-color: #e7e9fc;
 	--background-section-color: #f4f4fd;
 	--background-color: #ffffff;
+	--border-color: #8e8f99;
 }
 
 body {
@@ -26,6 +27,13 @@ body {
 
 img {
 	display: block;
+}
+
+h1,
+h2,
+h3 {
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 .list {
@@ -348,19 +356,38 @@ img {
 
 /* customers */
 
-.customers-item {
-	width: 168px;
-	height: 88px;
+/* .customers-item {
+	
 
 	outline: 2px solid tomato;
-}
+} */
 
 .customers-item:not(:last-child) {
 	margin-right: 24px;
 }
 
-/* portfolio */
+.customers-icon {
+	display: block;
+	width: 168px;
+	height: 88px;
+	padding: 16px 32px;
 
+	fill: var(--border-color);
+	border: 1px solid var(--border-color);
+	border-radius: 4px;
+}
+
+.customers-icon:hover {
+	fill: var(--button-hover-color);
+	border: 1px solid var(--button-hover-color);
+}
+
+/* .customers-item:focus {
+	background-color: var(--button-hover-color);
+	border: 1px solid var(--button-hover-color);
+} */
+
+/* portfolio */
 .section.portfolio {
 	padding-top: 96px;
 }
