@@ -376,19 +376,13 @@ h3 {
 	height: 40px;
 	width: 40px;
 
-	padding: 12px 12px;
-	/* height: 16px;
-	width: 16px; */
-	border-radius: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
 	background-color: var(--button-text-color);
-	fill: var(--background-section-color);
-}
+	background-size: 16px;
+	border-radius: 50%;
 
-.icon-social {
-	height: 16px;
-	width: 16px;
-
-	fill: var(--background-section-color);
+	/* fill: var(--background-section-color); */
 }
 
 .social-item:not(:last-child) {
@@ -401,12 +395,6 @@ h3 {
 }
 
 /* customers */
-
-/* .customers-item {
-	
-
-	outline: 2px solid tomato;
-} */
 
 .customers-item:not(:last-child) {
 	margin-right: 24px;
@@ -634,13 +622,6 @@ h3 {
 .linkedin {
 	background-image: url('../images/linkedin_5.svg');
 }
-
-/* .icon-footer {
-	height: 24px;
-	width: 24px;
-
-	fill: var(--background-section-color);
-} */
 
 .footer-link:hover,
 .footer-link:focus {
