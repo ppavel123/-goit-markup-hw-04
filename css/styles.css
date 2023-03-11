@@ -610,20 +610,37 @@ h3 {
 	display: block;
 	height: 40px;
 	width: 40px;
+	background-repeat: no-repeat;
+	background-position: center;
 
-	padding: 8px 8px;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.1);
 
-	/* cursor: pointer; */
+	background-size: 24px;
 }
 
-.icon-footer {
+.instagram {
+	background-image: url('../images/instagram_5.svg');
+}
+
+.twitter {
+	background-image: url('../images/twitter_5.svg');
+}
+
+.facebook {
+	background-image: url('../images/facebook_5.svg');
+}
+
+.linkedin {
+	background-image: url('../images/linkedin_5.svg');
+}
+
+/* .icon-footer {
 	height: 24px;
 	width: 24px;
 
 	fill: var(--background-section-color);
-}
+} */
 
 .footer-link:hover,
 .footer-link:focus {
